@@ -17,7 +17,7 @@ const Main = () => {
             </div>
             <div className='flex space-x-2'>
                 <p>Increment/Decrement by: </p>
-                <input onChange={(e) => setMargin(e.target.value)} value={margin} type="number" className='text-black focus:outline-none overflow-hidden w-10'/>
+                <input onChange={(e) => setMargin(e.target.value)} value={margin} type="number" className='text-black focus:outline-none remove-arrow w-10'/>
             </div>
             <button onClick={() => setCnt(0)} type='button' className='m-2 px-6 py-2 bg-sky-500 hover:bg-sky-200 text-white hover:text-black rounded-lg'>Reset</button>
         </div>
